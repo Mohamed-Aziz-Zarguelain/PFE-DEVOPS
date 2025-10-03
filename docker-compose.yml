@@ -13,7 +13,7 @@ services:
       - db:/var/lib/mysql
 
     # backend application service
-  foyer-backend:
+  bee-track:
     depends_on:
       - mysqldb
     build: ./
